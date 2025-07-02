@@ -1,0 +1,191 @@
+1.write a program to print the given number is odd or even ?
+
+n=int(input("Number:"))
+if(n%2==0):
+ print("number is even")
+else:
+ print("number is odd")
+
+2.write a program to print the given number is positive or negative ?
+
+n=int(input("Number:"))
+if(n>=0):
+ print("number is positive")
+else:
+ print("number is negative")
+
+3.write a program to print the sum of two numbers ?
+
+a=int(input("number 1 :"))
+b=int(input("number 2 :"))
+sum=a+b
+print(sum)
+
+4.write a program to find if the given number is prime or not?
+
+a=int(input("number 1 :"))
+if(a==1):
+    print("not prime")
+elif(a>1):
+    if(a%2==0 or a%3==0):
+        print("not prime")
+    else:
+        print("prime")
+      
+5.write a program to check if the given number is palidrome or not ?
+
+def palidrome(String):
+    if(string==string[::-1]):
+      print("palidrome")
+    else:
+      print("not palidrome")
+string=input("String:")
+palidrome(string)
+ 
+6.Write a program to check if the given number is Armstrong or not ?
+
+def Armstrong(num):
+    num_str=str(num)
+    n=len(num_str)
+    sum=0
+    for i in num_str:
+        sum+=int(i)**n
+    return(sum==num)
+n=int(input("numb:"))
+if(Armstrong(n)):
+    print("Armstrong")
+else:
+    print("Not Armstrong")
+
+7.Write a program to check if the given strings are anagram or not.
+
+def Anagram(s1,s2):
+    if(sorted(s1)==sorted(s2)):
+        print("Anagram")
+    else:
+        print("not anagram")
+s1=input("string1")
+s2=input("string2")
+Anagram(s1,s2)
+
+8.Write a program to find a maximum of two numbers.
+def maximum(s1,s2):
+    if(s1>s2):
+        print(s1,"Number1 is maximum number")
+    else:
+        print(s2,"Number2 is maximum number")
+s1=int(input("Number1:"))
+s2=int(input("Number2:"))
+maximum(s1,s2)
+
+9.Write a program to find a minimum of two numbers.
+
+def maximum(s1,s2):
+    if(s1<s2):
+        print(s1,"Number1 is minimum number")
+    else:
+        print(s2,"Number2 is minimum number")
+s1=int(input("Number1:"))
+s2=int(input("Number2:"))
+maximum(s1,s2)
+
+10.Write a program to find a maximum of three numbers.
+
+def maximum(s1,s2,s3):
+    if((s1>s2)&(s1>s3)):
+        print(s1," is maximum number")
+    elif((s2>s3)):
+        print(s2,"is maximum number")
+    else:
+        print(s3,"is maximum number")
+s1=int(input("Number1:"))
+s2=int(input("Number2:"))
+s3=int(input("Number3:"))
+maximum(s1,s2,s3)
+
+11.Write a program to find a minimum of three numbers.
+
+def maximum(s1,s2,s3):
+    if((s1<s2)&(s1<s3)):
+        print(s1," is minimum number")
+    elif((s2<s3)):
+        print(s2,"is minimum number")
+    else:
+        print(s3,"is minimum number")
+s1=int(input("Number1:"))
+s2=int(input("Number2:"))
+s3=int(input("Number3:"))
+maximum(s1,s2,s3)
+
+12.Write a program to find a factorial of a number.
+
+def factorial(s1):
+    if(s1<0):
+        return 0
+    elif((s1==0)or(s1==1)):
+        return 1
+    else:
+        T=1
+        for i in range(1,s1):
+            T=T*s1
+            s1=s1-1
+    print(T)
+s1=int(input("Number1:"))
+factorial(s1)
+
+
+
+
+
+13.Write a program to find a fibonacci of a number.
+14.Write a program to find GCD of two numbers.
+15.Write a program to print the following pattern
+               
+            *
+            * *
+            * * *
+            * * * *
+            * * * * *
+16.Write a program to print the following pattern
+         
+             *
+            * *
+           * * *
+          * * * *
+         * * * * *
+
+17.Write a program to print the following pattern
+
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+
+18.Write a program to print the following pattern
+
+1
+2  3
+4  5  6
+7  8  9  10
+11 12 13 14 15
+
+19.write a program to print the following pattern
+
+A
+B B
+C C C
+D D D D
+E E E E E
+
+20.write a program to print the following pattern
+
+A
+B C
+D E F
+G H I J
+K L M N O
+
+
+
+https://frontlinesmedia.in/top-100-tcs-nqt-coding-questions/#google_vignette
